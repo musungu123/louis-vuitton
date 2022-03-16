@@ -9,10 +9,12 @@
 
 header{
     width: 100%;    
-    height: 12vh;
+    height: 10vh;
+    
     background: #fff;
     /* line below the navigation bar "A faint line RGBA(value)" */
-    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    /* margin-bottom :3vh; */
 }
 /* navigation container */
 .nav-container{
@@ -25,12 +27,12 @@ header{
 .heading{
     /* letter spacing between louis vuitton*/
     letter-spacing: 1px;
-    font-size: 52px;
+    font-size: 32px;
     text-transform: uppercase;
-    font-weight: 520;
-    margin-top: 10px;
+    font-weight: 460;
+    margin-top: 7px;
     font-family: 'Fredoka', sans-serif;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 /* navigation Section */
 nav ul {
@@ -42,16 +44,16 @@ nav ul li {
 }
 
 li .nav-links{
-    font-size: 22px;
-    font-weight:500;
+    font-size: 20px;
+    font-weight:400;
     text-transform: uppercase;
     color:#000;
     text-decoration: none;
     /* spaces between the navigation link */
-    margin-left:44px;
+    margin-left:28px;
 }
 li .nav-links:hover{
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     box-shadow: 0px 4px 0px #000;
     
 }
@@ -66,14 +68,14 @@ li .nav-links:hover{
 .title{
     height: 7vh;
     /* line below */
-    box-shadow: 0px 1px 0px rgba(0,0,0,0.2);
-    padding-top: 20px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+    padding-top: 10px;
     padding-left: 40px;
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 /* second category */
@@ -81,21 +83,21 @@ li .nav-links:hover{
 .filter-cont{
     height: 8vh;
     display: flex;
-    box-shadow: 0px 1px 0px rgba(0,0,0, 0.2);
+    box-shadow: 0px 1px 0px rgba(0,0,0, 0.1);
 }
 .filter{
     width: 87%;
     list-style: none;
     text-align:end;
     font-size: 21px;
-    padding-top: 2.4rem;
+    padding-top: 1.5rem;
     padding-right: 1rem;
     
 }
 .filter-item{
-    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
     list-style: none;
-    padding: 2.4rem 35px;
+    padding: 1.5rem 35px;
     font-size: 19px;
     
 }
@@ -154,4 +156,8 @@ li .nav-links:hover{
 .card .details{
     font-weight: bold;
     text-transform: uppercase;
+}
+/* js to fix other displays viewpoint */
+@media screen and (min-width: 768px) {
+    
 }
