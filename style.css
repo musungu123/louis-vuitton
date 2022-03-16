@@ -139,6 +139,8 @@ li .nav-links:hover{
     margin:4rem auto;
     height:65vh;
     display: flex;
+    gap: 2rem;
+    /* if space between items fail */
     justify-content: space-between;
 }
 .card{
