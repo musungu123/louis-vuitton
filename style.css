@@ -1,169 +1,20 @@
-/* set margin of block element to default */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* universal font */
-    font-family: 'Fredoka', sans-serif;
+/* styles the first navigation bar horizontally */
+
+
+
+.world-navtwo{
+    display: flex;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 400px;
+
+}
+.world-nav li {
+    text-decoration: ;
 }
 
-header{
-    width: 100%;    
-    height: 10vh;
-    
-    background: #fff;
-    /* line below the navigation bar "A faint line RGBA(value)" */
-    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
-    /* margin-bottom :3vh; */
-}
-/* navigation container */
-.nav-container{
-    width: 50%;
-    margin: 0 auto;
-    /* Places the navigaion at the center */
+h2{
+    letter-spacing: 3px;
+    font-size: 30px;
     text-align: center;
-}
-/* head */
-.heading{
-    /* letter spacing between louis vuitton*/
-    letter-spacing: 1px;
-    font-size: 32px;
-    text-transform: uppercase;
-    font-weight: 460;
-    margin-top: 7px;
-    font-family: 'Fredoka', sans-serif;
-    margin-bottom: 15px;
-}
-/* navigation Section */
-nav ul {
-    display: flex;
-    justify-content: center;
-}
-nav ul li {    
-   list-style: none;
-}
-
-li .nav-links{
-    font-size: 20px;
-    font-weight:400;
-    text-transform: uppercase;
-    color:#000;
-    text-decoration: none;
-    /* spaces between the navigation link */
-    margin-left:28px;
-}
-li .nav-links:hover{
-    padding-bottom: 15px;
-    box-shadow: 0px 4px 0px #000;
-    
-}
-/* space-in-between 
-//
-
-// first cateogry
-*/
-.container-in-between {
-    margin-bottom: 5vh;
-}
-.title{
-    height: 7vh;
-    /* line below */
-    box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
-    padding-top: 10px;
-    padding-left: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 1px;
-    font-size: 24px;
-}
-
-/* second category */
-
-.filter-cont{
-    height: 8vh;
-    display: flex;
-    box-shadow: 0px 1px 0px rgba(0,0,0, 0.1);
-}
-.filter{
-    width: 87%;
-    list-style: none;
-    text-align:end;
-    font-size: 21px;
-    padding-top: 1.5rem;
-    padding-right: 1rem;
-    
-}
-.filter-item{
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
-    list-style: none;
-    padding: 1.5rem 35px;
-    font-size: 19px;
-    
-}
- .filter-item a{
-    color: #000;
-    font-weight: 590;
-    text-decoration: none;
-}
-/* cards containers */
-.card-cont{
-    width: 97%;
-    margin:0 auto;
-    height:65vh;
-    /* space between */
-    gap: 2rem;
-    display: flex;
-}
-.card1{
-    width: 70%;
-    height: 100%;
-}
-.card1 img{
-    width: 100%;
-    height: 100%;
-}
-.card2{
-    width: 30%;
-    height: 100%;
-}
-.card2 img{
-    width: 100%;
-    height: 100%;
-}
- 
-/* art of living  section*/
-#Artofliving{
-    margin-top:1.2rem;
-}
-.card-cont2{
-    width: 97%;
-    margin:4rem auto;
-    height:65vh;
-    display: flex;
-    gap: 2rem;
-    /* if space between items fail */
-    justify-content: space-between;
-}
-.card{
-    width: 800px;
-}
-.card img{
-    margin-bottom: 1.1rem;
-    width: 100%;
-    height: 100%;
-}
-.card .details{
-    font-weight: bold;
-    text-transform: uppercase;
-}
-/* js to fix other displays viewpoint */
-@media screen and (min-width: 768px) {
-    
-}
-.world-header{
- font-size: 70px;
- color: #19110b;
- text-align: center;
- font-weight: 800;
 }
