@@ -18,3 +18,27 @@ h2{
     font-size: 30px;
     text-align: center;
 }
+.header-one{
+    text-align: center;
+    margin-top:15px;
+    color: ffffff;
+    background-color: white;
+}
+.main-nav{
+    display: flex;
+    font-size: 22px;
+    margin-left: 200px;
+    padding: 15px;
+
+}
+.main-nav ul{
+    text-decoration: none;
+    display: flex;
+    
+}
+.main-nav ul li{
+    list-style-type: none;
+    padding: 15px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight:bold ;
+}
