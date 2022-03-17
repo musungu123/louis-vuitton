@@ -22,3 +22,20 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-weight:bold ;
 }
+.scc{
+    float: right;
+    list-style: none;
+}
+
+.scc a{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    text-align: right;
+    border-left:1px solid #333 ;
+}
+
+.spc{
+    margin: 30px;
+    
+}
