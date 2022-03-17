@@ -1,80 +1,25 @@
-img,
-picture {
-    max-width: 100%;
-    display: block;
-}
-*{
-    margin: 10px;
-
-}
-
-.main{
-    padding-top: 30px;
-    margin: 20px;
-}
 .header-one{
->>>>>>> 37dbc87c064673ced6846b3e3532971577b13b11
     text-align: center;
-    margin-top:15px;
+    margin-top: 15px;
     color: ffffff;
     background-color: white;
 }
-<<<<<<< HEAD
-.heading{
-
-display: flex;
-justify-content: space-around;
-align-items:center ;
-padding-top: 2px;
-padding-bottom:2px;
-}
-.task{
-    list-style: none;
-    display: flex;
-    column-gap: 40px;
-    
-}
-.task-2{
-    color: black;
-    font-weight: 500px;
-    text-decoration: none;
-    font-size: 15px;
-}
-.main2{
-    padding-left: 40px;
-    font-weight: 900;
-}
-.flex-container{
-    display: flex;
-  
-  margin-left: 800px;
-}
-.img-container{
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: 20px;
-    }
- .box{
-     display: flex;
- } 
- 
-=======
 .main-nav{
     display: flex;
     font-size: 22px;
     margin-left: 200px;
     padding: 15px;
-
 }
 .main-nav ul{
     text-decoration: none;
     display: flex;
-    
 }
 .main-nav ul li{
     list-style-type: none;
     padding: 15px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-weight:bold ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
 }
+/*styling the navbar for art*/
+.art-
