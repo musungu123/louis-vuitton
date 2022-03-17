@@ -161,3 +161,9 @@ li .nav-links:hover{
 @media screen and (min-width: 768px) {
     
 }
+.world-header{
+ font-size: 70px;
+ color: #19110b;
+ text-align: center;
+ font-weight: 800;
+}
