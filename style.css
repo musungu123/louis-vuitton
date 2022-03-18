@@ -1,6 +1,6 @@
 .header-one{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 0]5px;
     color: ffffff;
     background-color: white;
 }
@@ -21,5 +21,45 @@
     font-weight: bold;
 
 }
-/*styling the navbar for art*/
-.art-
+}
+.task{
+    list-style: none;
+    display: flex;
+    column-gap: 40px;
+    
+}
+.task-2{
+    color: black;
+    font-weight: 500px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.main2{
+    padding-left: 40px;
+    font-weight: 900;
+}
+.flex-container{
+    display: flex;
+  
+  margin-left: 800px;
+}
+.img-container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    }
+ .box{
+     display: flex;
+ } 
+ .asc{
+     float: right;
+     list-style: none;
+ }
+ .asc a{
+     text-decoration: none;
+     list-style: none;
+     padding: 1opx;
+     text-align: right;
+     border-left:1px solid;
+ }
