@@ -1,6 +1,6 @@
 .header-one{
     text-align: center;
-    margin-top:15px;
+    margin-top: 0]5px;
     color: ffffff;
     background-color: white;
 }
@@ -9,50 +9,57 @@
     font-size: 22px;
     margin-left: 200px;
     padding: 15px;
-
 }
 .main-nav ul{
     text-decoration: none;
     display: flex;
-    
 }
 .main-nav ul li{
     list-style-type: none;
     padding: 15px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-weight:bold ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 
 }
-.scc{
-    float: right;
+}
+.task{
     list-style: none;
-}
-
-.scc a{
-    text-decoration: none;
-    list-style: none;
-    padding: 10px;
-    text-align: right;
-    border-left:1px solid #333 ;
-   
-}
-.smimg{
-    width: 750px;
-    height: 416px;
-    margin-right: 15px;
-}
-
-
-.spc{
-    margin: 30px;
-    color:black;
-    text-decoration: solid;
-    text-align: center;
-    font-weight: 100px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    column-gap: 40px;
     
 }
-.spc1{
-    border-right: none;
+.task-2{
+    color: black;
+    font-weight: 500px;
+    text-decoration: none;
+    font-size: 15px;
 }
+.main2{
+    padding-left: 40px;
+    font-weight: 900;
+}
+.flex-container{
+    display: flex;
+  
+  margin-left: 800px;
+}
+.img-container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    }
+ .box{
+     display: flex;
+ } 
+ .asc{
+     float: right;
+     list-style: none;
+ }
+ .asc a{
+     text-decoration: none;
+     list-style: none;
+     padding: 1opx;
+     text-align: right;
+     border-left:1px solid;
+ }
