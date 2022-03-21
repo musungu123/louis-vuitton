@@ -1,3 +1,4 @@
+
 .header-one{
     text-align: center;
     margin-top: 05px;
@@ -10,7 +11,8 @@
     margin-left: 200px;
     padding: 10px;
     margin-top: 20px;
-    background-color: white;
+    background-color: black;
+    color:white;
     padding: 15px;
 }
 .main-nav ul{
@@ -28,12 +30,12 @@
     text-align: center;
 }
 body{
-    background-color: rgb(207, 207, 207);
+    background-color: black;
 }
 .container {
     position: relative;
     text-align: center;
-    color: black;
+    color: #fff;
   }
   .textcenter img{
      width: 100%;
@@ -114,3 +116,5 @@ body{
  .ss-img-container img {
      display: block;
  }
+
+ 
