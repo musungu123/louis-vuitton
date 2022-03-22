@@ -1,23 +1,13 @@
 /* styles the first navigation bar horizontally */
 
-
-
-.world-navtwo{
-    display: flex;
-    font-size: 25px;
-    padding: 20px;
-    margin-left: 400px;
-
-}
-.world-nav li {
-    text-decoration: ;
-}
-
 h2{
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
+    line-height: 100px;
 }
+/* leader main navigation code */
+
 .header-one{
     text-align: center;
     margin-top:15px;
@@ -41,4 +31,31 @@ h2{
     padding: 15px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-weight:bold ;
+}
+/* styling for navbar  for world  */
+.world-nav {
+   
+    padding: 30px;
+    font-size: 30px;
+  
+}
+.world-nav ul{
+    display: flex;
+   text-align: center;
+}
+.world-nav ul li{
+    list-style: none;
+    text-align: center;
+}
+.world-nav ul li a {
+    text-decoration: none;
+    display: flex;
+}
+.world-image{
+    text-align: center;
+}
+h3{
+    font-size: 50px;
+    letter-spacing: 3px;
+
 }
