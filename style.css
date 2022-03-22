@@ -30,7 +30,6 @@ h2{
 .main-nav ul li{
     list-style-type: none;
     padding: 15px;
-<<<<<<< HEAD
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-weight:bold ;
 }
@@ -61,7 +60,6 @@ h3{
     letter-spacing: 3px;
 
 }
-=======
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-weight:100 ;
    margin-top: 20px;
@@ -156,4 +154,3 @@ body{
  .ss-img-container img {
      display: block;
  }
->>>>>>> d3365a461fa41372ee0ca925ef545b3a836e1f26
